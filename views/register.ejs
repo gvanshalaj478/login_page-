@@ -1,0 +1,17 @@
+<%- include('header'); -%>
+<h1> Sign up form </h1>
+
+<form action="/register" method="POST">
+  <i class="far fa-user"></i>
+    <input type="text" name="username"
+        placeholder="username"><br>
+        <i class="fas fa-key"></i>
+    <input type="password" name="password"
+        placeholder="password"><br>
+    <button>Submit</button>
+</form>
+<h3 style="color:white;">Have an account?</h3>
+<button type="button" name="button"> <a href="/login">Login</a></button>
+
+
+<%- include('footer'); -%>

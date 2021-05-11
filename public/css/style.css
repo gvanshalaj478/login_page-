@@ -1,0 +1,85 @@
+body{
+  text-align:center;
+align-items: center;
+margin:auto;
+background-image:url(https://i.pinimg.com/564x/fe/0f/80/fe0f80503d9c197164b184a58b0d0f8e.jpg);
+background-repeat: no-repeat;
+background-size: cover;
+height: 100%;
+width: 100%;
+
+}
+h1{
+  color:White;
+  font-family: 'Sofadi One', cursive;
+}
+input{
+  text-align: center;
+  background-color: #000;
+  color: white;
+  opacity: 0.5;
+  border:none;
+border-bottom:4px Solid white;
+margin-bottom:20px;
+border-radius:15%;
+
+}
+footer{
+  background-color:grey;
+  margin:50px 0 0 0;
+  position:fixed;
+  left: 0;
+  bottom: 10px;
+  width: 100%;
+  font-size:20px;
+
+  }
+  .ftr{
+    color:white;
+    margin:5px;
+  }
+i{
+  color:#FFD700
+}
+button{
+  border-radius:5px;
+  margin:20px;
+  width:250px;
+  color:yellow;
+background-color:  rgba(255, 99, 71, 0);
+font-weight: bold;
+}
+.topImage{
+  height:100px;
+  width:100px;
+  border-radius:50%;
+}
+.secrectimg{
+  height:100px;
+  width:300px;
+}
+p{
+  color:#faf3f3;
+
+  margin:0 200px 0 200px ;
+ font-family: sans-serif;
+ font-size:30px;
+  border-bottom:2px solid white;
+  border-radius:20%;
+}
+.contact{
+  font-size:20px;
+  border:6px double white;
+  border-radius:10px;
+  color:#e1e5ea;
+  letter-spacing:0.1em;
+  font-family: 'Ubuntu Condensed', sans-serif;
+
+   margin:0 150px 0 150px;
+}
+.ftrp{
+  font-size:15px;
+}
+a{
+  color:yellow;
+}
