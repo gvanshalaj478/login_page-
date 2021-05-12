@@ -10,7 +10,7 @@ mongoose.set('useNewUrlParser', true);
 mongoose.set('useFindAndModify', false);
 mongoose.set('useCreateIndex', true);
 mongoose.set('useUnifiedTopology', true);
-mongoose.connect("mongodb+srv://admin_gvanshalaj:Sunday_1998@cluster0.yhptq.mongodb.net/myFirstDatabase");
+mongoose.connect("mongodb+srv://username:Password@cluster0.yhptq.mongodb.net/DatabaseName");
 
 var app = express();
 
